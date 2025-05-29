@@ -1,5 +1,5 @@
 # Non-volatile Memory (NVM) Driver
-This is a driver for write, read, and erase operations on non-volatile memory (NVM) using the ESP-IDF NVS (Non-Volatile Storage) library.\
+This is a driver for write, read, and erase operations on non-volatile memory (NVM) using the ESP-IDF NVS (Non-Volatile Storage) library.
 
 ## Understanding NVM Basics
 NVM is a type of memory that retains its data even when the power is turned off. It is commonly used to store configuration settings, calibration data, and other persistent information that needs to be preserved across reboots.
