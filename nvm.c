@@ -9,7 +9,7 @@
  *
  */
 
-#include "nvm_driver.h"
+#include "nvm.h"
 
 #include <esp_log.h>
 #include <esp_system.h>
