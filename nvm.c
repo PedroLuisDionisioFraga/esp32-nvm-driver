@@ -29,15 +29,6 @@
       ESP_LOGE(TAG, fmt, ##__VA_ARGS__); \
   } while (0)
 
-#define LM75A_CHECK_INSTANCE(evaluated, ret)           \
-  if (!evaluated)                                      \
-  {                                                    \
-    DEBUG_PRINT_ERR("Error: LM75A_ERR_INVALID_PARAM"); \
-    return ret;                                        \
-  }
-
-#define UNUSED(x) (void)(x)
-
 static const char *TAG = "NVM_DRIVER";
 
 static nvs_handle_t handle;
